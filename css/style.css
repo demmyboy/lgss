@@ -2100,6 +2100,59 @@ h3.heading {
     background-color: #23374d;
 }
 
+@media(max-width:767px) {
+    .caption h1 {
+        font-size: 2.7rem;
+        letter-spacing: .15rem;
+        padding-bottom: .5rem;
+    }
+    .caption h3 {
+        font-size: 1.7rem;
+        padding-bottom: 1.2rem;
+        letter-spacing: .3rem;
+    }
+    .btn-lg {
+        padding: .6rem 1.1rem;
+        font-size: 1rem;
+    }
+    .narrow h1 {
+        font-size: 1.8rem;
+    }
+    #fixed {
+        background-image: url('img/fixed/apple-mobile.png');
+    }
+    #fixed-2 {
+        background-image: url('img/fixed/office-mobile.png');
+    }
+    footer {
+        background: url('img/footer/footer-mobile.png') no-repeat;
+    }
+    .clients img {
+        max-width: 50%;
+        margin: 0 auto;
+    }
+    /*.top-scroll{
+        display: none !important 
+    }*/
+    .navbar-brand b {
+        display: block;
+        font-size: 70%;
+        line-height: 1;
+        color: #00CC00;
+    }
+    .navbar-brand span {
+        font-size: 15px;
+        font-weight: 100;
+        display: inline-block;
+        vertical-align: middle;
+        padding: 0 0 0 2px;
+    }
+    .dropdown-item {
+        color: #fff !important;
+        font-size: 0.8rem !important;
+    }
+}
+
 
 /*Device Under 576 (lg)*/
 
