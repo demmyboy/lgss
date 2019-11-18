@@ -2099,3 +2099,54 @@ h3.heading {
 #contact-section {
     background-color: #23374d;
 }
+
+
+/*Device Under 576 (lg)*/
+
+@media(max-width:575px) {
+    .caption h1 {
+        font-size: 1.9rem;
+        letter-spacing: .1rem;
+        padding-bottom: .4rem;
+    }
+    .caption h3 {
+        font-size: 1.4rem;
+        padding-bottom: 1rem;
+        letter-spacing: .3rem;
+        font-weight: 700;
+    }
+    .btn-lg {
+        padding: .4rem .9rem;
+        font-size: .9rem;
+    }
+    .narrow {
+        width: 85%;
+    }
+    .navbar-brand b {
+        display: block;
+        font-size: 80%;
+        color: #00CC00;
+        font-weight: 400;
+    }
+    .navbar-brand span {
+        font-size: 15px;
+        font-weight: 200;
+        display: inline-block;
+        vertical-align: middle;
+        padding: 0 0 0 2px;
+    }
+    .navbar-brand img {
+        height: 3rem;
+    }
+    footer {
+        background: #443266;
+        color: #00CC00;
+    }
+    .container .product {
+        margin-left: 20px;
+    }
+    .dropdown-item {
+        color: #fff !important;
+        font-size: 0.8rem !important;
+    }
+}
