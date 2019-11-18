@@ -12,8 +12,8 @@
         width: 470px;
         height: 223px;
         background-color: transparent;
-        border-left: solid 2px #9455d0;
-        border-right: solid 2px #9455d0;
+        border-left: solid 2px #00CC00;
+        border-right: solid 2px #00CC00;
     }
     .hexagon-box:before,
     .hexagon-box:after {
@@ -30,13 +30,13 @@
     }
     .hexagon-box:before {
         top: -172px;
-        border-top: solid 2px #9455d0;
-        border-right: solid 2px #9455d0;
+        border-top: solid 2px #00CC00;
+        border-right: solid 2px #00CC00;
     }
     .hexagon-box:after {
         bottom: -172px;
-        border-bottom: solid 2px #9455d0;
-        border-left: solid 2px #9455d0;
+        border-bottom: solid 2px #00CC00;
+        border-left: solid 2px #00CC00;
     }
     .hexagon-box span {
         width: 100%;
@@ -251,7 +251,7 @@ body.layout-2 .hexagon-icon i {
         content: '';
         height: 35px;
         width: 2px;
-        background-color: #9455d0;
+        background-color: #00CC00;
         left: 50%;
         bottom: -45px;
     }
