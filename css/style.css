@@ -2065,6 +2065,7 @@ h5,
 
 .header-message h1 {
     padding: 1rem;
+    margin: 1.5rem;
     background-color: #23374d;
     font-family: 'Baskervville', serif;
 }
