@@ -2060,6 +2060,18 @@ h5,
     font-family: 'Baskervville', serif;
 }
 
+.caption h3 {
+    font-size: 2.0rem;
+    text-transform: lowercase;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: .1rem;
+    text-shadow: .1rem .1rem .8rem black;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    font-family: 'Baskervville', serif;
+}
+
 .gold {
     color: #FFD700;
 }
