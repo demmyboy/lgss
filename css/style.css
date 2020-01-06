@@ -2072,6 +2072,11 @@ h5,
     font-family: 'Baskervville', serif;
 }
 
+.help-block.with-errors {
+    color: #ff5050;
+    margin-top: 5px;
+}
+
 .gold {
     color: #FFD700;
 }
