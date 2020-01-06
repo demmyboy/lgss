@@ -400,49 +400,54 @@
                         </div>
                         <div class="row justify-content-center">
                             <div class="col-lg-8 mb-5" data-aos="fade-up" data-aos-delay="100">
-                                <form action="#" method="post">
+                                <form action="contact.php" method="post" id="contact-form" name="sentMessage">
                                     <div class="form-group row">
                                         <div class="col-md-6 mb-4 mb-lg-0">
-                                            <input type="text" class="form-control" placeholder="First name">
+                                            <input id="form-name" name="firstName" type="text" class="form-control" placeholder="First name" required="required" data-error="firstName is required.">
+                                            <div class="help-block with-errors"></div>
                                         </div>
                                         <div class="col-md-6">
-                                            <input type="text" class="form-control" placeholder="Last name">
+                                            <input id="form-lastName" name="lastName" type="text" class="form-control" placeholder="Last name" required="required" data-error="lastName is required.">
+                                            <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
 
                                     <div class="form-group row">
                                         <div class="col-md-12">
-                                            <input type="email" class="form-control" placeholder="Email address">
+                                            <input id="form-email" name="email" type="email" class="form-control" placeholder="Email address" required="required" data-error="email is required.">
+                                            <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
 
                                     <div class="form-group row">
                                         <div class="col-md-12">
-                                            <input type="text" class="form-control" placeholder="Company">
+                                            <input id="form-company" name="company" type="text" class="form-control" placeholder="Company">
+                                            <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
 
                                     <div class="form-group row">
                                         <div class="col-md-6 mb-4 mb-lg-0">
-                                            <input type="text" class="form-control" placeholder="Job Title">
+                                            <input id="form-jobTitle" name="jobTitle" type="text" class="form-control" placeholder="Job Title">
                                         </div>
                                         <div class="col-md-6">
-                                            <input type="text" class="form-control" placeholder="Contact Person">
+                                            <input id="form-contactPerson" name="contactPerson" type="text" class="form-control" placeholder="Contact Person">
                                         </div>
                                     </div>
 
                                     <div class="form-group row">
                                         <div class="col-md-12 ">
-                                            <select id="inputState" class="form-control  countrypicker" data-default="ZA" data-flag="true">
-                                    <option>Choose Country ...</option>
-
-                                </select>
+                                            <select id="inputState" name="country" class="form-control  countrypicker" data-default="ZA" data-flag="true">
+                                              <option >Choose Country ...</option>
+                                              
+                                            </select>
                                         </div>
                                     </div>
 
                                     <div class="form-group row">
                                         <div class="col-md-12">
-                                            <textarea name="" id="" class="form-control" placeholder="Write your message." cols="30" rows="10"></textarea>
+                                            <textarea id="form-message" name="message" class="form-control" placeholder="Write your message." cols="30" rows="10"></textarea>
+                                            <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
                                     <div class="form-group row">
@@ -450,6 +455,7 @@
                                             <input type="submit" class="btn btn-block btn-success text-white py-3 px-5" value="Send Message">
                                         </div>
                                     </div>
+                                    <div class="messages"></div>
                                 </form>
                                 <small class="text-white">*** By submitting this form you agree to our Terms of Use and Privacy
                         Policy. Information provided by you may be collected and automatically stored in our database
