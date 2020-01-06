@@ -7,14 +7,14 @@
 $from = 'info@lgdatas.com';
 
 // an email address that will receive the email with the output of the form
-$sendTo = 'demolaabdulai@gmail.com';
+$sendTo = 'info@lgdatas.com';
 
 // subject of the email
 $subject = 'New message from lgdatas.com';
 
 // form field names and their translations.
 // array variable name => Text to appear in the email
-$fields = array('firstName' => 'First Name', 'lastName' => 'Last Namme', 'email' => 'Email', 'company' => 'Company',  'message' => 'Message'); 
+$fields = array('firstName' => 'First Name', 'lastName' => 'Last Namme', 'email' => 'Email', 'company' => 'Company', 'jobTitle' => 'Job Title','contactPerson' => 'Contact Person','country' => 'country', 'message' => 'Message'); 
 
 // message that will be displayed when everything is OK :)
 $okMessage = 'Contact form successfully submitted. Thank you, I will get back to you soon!';

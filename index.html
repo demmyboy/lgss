@@ -484,7 +484,6 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8 mb-5" data-aos="fade-up" data-aos-delay="100">
                     <form action="contact.php" method="post" id="contact-form" name="sentMessage">
-                        <div class="messages"></div>
                         <div class="form-group row">
                             <div class="col-md-6 mb-4 mb-lg-0">
                                 <input id="form-name" name="firstName" type="text" class="form-control" placeholder="First name" required="required" data-error="firstName is required.">
@@ -521,7 +520,7 @@
 
                         <div class="form-group row">
                             <div class="col-md-12 ">
-                                <select id="inputState" class="form-control  countrypicker" data-default="ZA" data-flag="true">
+                                <select id="inputState" name="country" class="form-control  countrypicker" data-default="ZA" data-flag="true">
                                   <option >Choose Country ...</option>
                                   
                                 </select>
@@ -539,6 +538,7 @@
                                 <input type="submit" class="btn btn-block btn-success text-white py-3 px-5" value="Send Message">
                             </div>
                         </div>
+                        <div class="messages"></div>
                     </form>
                     <small class="text-white">*** By submitting this form you agree to our Terms of Use and Privacy Policy. Information provided by you may be collected and automatically stored in our database and may be used for sending you additional information about LGDS and our
                             services. Such information also may be transferred to LGDS companies in other countries.***</small>
@@ -567,7 +567,7 @@
                             <p>+27 745392249</p>
                         </div>
                         <div class="col-md-4 ml-auto">
-                            <h2 class="footer-heading mb-4 text-success">Feature</h2>
+                            <h2 class="footer-heading mb-4 text-success">Features</h2>
                             <ul class="list-unstyled">
                                 <li><a href="#about-section">About Us</a></li>
                                 <li><a href="#larryGoldCore">LGDS Core</a></li>
